@@ -1,6 +1,6 @@
-
+wait(5)
 if game.PlaceId == 286090429 then --Arsenal
-    
+    Auto_farmtrue = true  --ปรับtureเพื่อให้auto farm แบบอัตโนมัfalse ปิด
 
 
 local http_request = http_request or request or HttpPost or syn.request
@@ -1489,6 +1489,6 @@ end)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MAZIHUB191/FPS-SHOW/main/README.md"))() 
 else
-    
+   
 
 end
