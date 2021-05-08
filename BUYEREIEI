@@ -78,10 +78,10 @@ local ui = game:GetService("CoreGui"):FindFirstChild("FluxLib")
 if ui then
     ui:Destroy()
 end
-local ColorMAZI = _G.Color
+
 local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
 
-local win = Flux:Window("Arsenal", "MAZI HUB", ColorMAZI, Enum.KeyCode.RightControl)
+local win = Flux:Window("Arsenal", "MAZI HUB",_G.Color, Enum.KeyCode.RightControl)
 
 
 local self = game.Players.LocalPlayer.Character.HumanoidRootPart
